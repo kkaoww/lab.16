@@ -24,7 +24,7 @@ void shuffle(int &a,int &b,int &c,int &d){
 	for (int i = 0 ; i < 4 ;i++ ){
 		x[i] = rand()%4 ;
 		for(int j = 0 ; j < i ; j++){
-		|if(x[i]== x[j]){
+		if(x[i]== x[j]){
 			i--;
 			break;
 		}
